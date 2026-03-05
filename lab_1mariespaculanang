@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>WS 101 Group 7 - Our Personal Page</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f4f6f9;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+
+        header {
+
+            background-color: #4a69bd;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+
+
+        nav {
+
+            text-align: center;
+
+            background-color: #1e3799;
+
+            padding: 10px;
+
+        }
+
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            margin: 0 15px;
+
+            font-weight: bold;
+
+        }
+
+
+        nav a:hover {
+
+            text-decoration: underline;
+
+        }
+
+
+        section {
+
+            padding: 20px;
+
+            margin: 20px;
+
+            background-color: white;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+
+
+        h2 {
+
+            color: #1e3799;
+
+        }
+
+
+        form {
+
+            background-color: white;
+
+            padding: 20px;
+
+            margin: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+
+
+        input, textarea {
+
+            width: 100%;
+
+            padding: 8px;
+
+            margin-top: 5px;
+
+            margin-bottom: 15px;
+
+            border-radius: 5px;
+
+            border: 1px solid #ccc;
+
+        }
+
+
+        button {
+
+            padding: 10px 20px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            background-color: #4a69bd;
+
+            color: white;
+
+            cursor: pointer;
+
+        }
+
+
+        button:hover {
+
+            background-color: #1e3799;
+
+        }
+
+
+        footer {
+
+            text-align: center;
+
+            background-color: #4a69bd;
+
+            color: white;
+
+            padding: 10px;
+
+            margin-top: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1> WS 101 Group 7- Our Personal Page</h1>
+
+    </header>
+
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#">About</a>
+
+        <a href="#">Contacts</a>
+
+    </nav>
+
+
+    <!-- 6 PERSON SECTION -->
+
+    <section>
+
+        <h2>Jose Angelito Gabilo</h2>
+
+        <p>Loves exploring somewhere. Dream: To become succeed in my future career.</p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Kyle Laurence Bago</h2>
+
+        <p>Loves my bonds. Dream: To become  one in  a millionaire .</p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Maries paculanang </h2>
+
+        <p>Loves cooking, lovable, and listening to music. Dream: To become succeed one day.</p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Mattdavid correa</h2>
+
+        <p>Loves playing basketball. Dream: To become one of NBA player.</p>
+
+    </section>
+
+
+
+    <!-- REGISTRATION FORM -->
+
+    <form>
+
+        <h2 style="text-align:center;">Registration Form</h2>
+
+
+        <fieldset>
+
+            <legend><strong>Personal Information</strong></legend>
+
+            <label>Full Name</label>
+
+            <input type="text" placeholder="Enter your full name" required>
+
+
+            <label>Email</label>
+
+            <input type="email" placeholder="Enter your email" required>
+
+
+            <label>Password</label>
+
+            <input type="text" placeholder="Enter your password" required>
+
+
+            <label>Birthdate</label>
+
+            <input type="date" required>
+
+
+            <label>Age</label>
+
+            <input type="number" name="age" max="100" required>
+
+        </fieldset>
+
+
+        <hr>
+
+
+        <fieldset>
+
+            <legend><strong>Additional Information</strong></legend>
+
+
+            <label>Gender</label><br>
+
+            <input type="radio" name="gender"> Female
+
+            <input type="radio" name="gender"> male
+
+            <input type="radio" name="gender"> Other
+
+
+            <br><br>
+
+            <label>Hobbies</label><br>
+
+            <input type="checkbox"> Mahal mo 
+
+            <input type="checkbox"> Mahal ka
+
+            <input type="checkbox"> May pag-asa pa ba
+
+            <input type="checkbox"> O wala na tapos na
+
+        </fieldset>
+
+
+        <br><br>
+
+        <label>About You:</label>
+
+        <textarea rows="4" placeholder="Write something about yourself..."></textarea>
+
+
+        <button type="submit">Register</button>
+
+        <button type="reset">Clear</button>
+
+    </form>
+
+
+    <footer>
+
+        <p>&copy; 2026 Group-7. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
